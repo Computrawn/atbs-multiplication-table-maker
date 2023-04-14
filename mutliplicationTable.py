@@ -7,7 +7,7 @@ from openpyxl.styles import Font
 from openpyxl.utils import get_column_letter
 
 
-# TODO: Set N_value to sysarg.
+# TODO: Change N_value from user input to sysarg for shell script.
 N_value = int(input("Input value of N: "))
 
 
