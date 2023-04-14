@@ -2,4 +2,5 @@
 .project
 *.pyc
 .idea
+.xlsx
 venv
