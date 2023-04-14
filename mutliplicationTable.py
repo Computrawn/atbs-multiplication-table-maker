@@ -1,7 +1,7 @@
 #! python3
 # mutliplicationTable.py — An exercise in working with Excel files.
 
-import sys
+# import sys
 import openpyxl
 from openpyxl.styles import Font
 from openpyxl.utils import get_column_letter
