@@ -1,18 +1,18 @@
 #! python3
 # mutliplicationTable.py — An exercise in working with Excel files.
 
-# import sys
+import sys
 import openpyxl
 from openpyxl.styles import Font
 from openpyxl.utils import get_column_letter
 
 
 # TODO: Change N_value from user input to sysarg for shell script.
-N_value = int(input("Input value of N: "))
+N_value = sys.argv[1]
 
 
 def create_table(N_value):
-    """Creates NxN multiplication table with bolded headers."""
+    """Creates and saves an NxN multiplication table with bolded headers."""
     wb = openpyxl.Workbook()
     sheet = wb.active
     bold = Font(bold=True)
