@@ -7,8 +7,7 @@ from openpyxl.styles import Font
 from openpyxl.utils import get_column_letter
 
 
-# TODO: Change N_value from user input to sysarg for shell script.
-N_value = sys.argv[1]
+N_value = int(sys.argv[1])
 
 
 def create_table(N_value):
