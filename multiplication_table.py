@@ -7,7 +7,8 @@ from openpyxl.styles import Font
 from openpyxl.utils import get_column_letter
 
 
-N_value = int(sys.argv[1])
+# N_value = int(sys.argv[1])
+user_value = int(input("Please enter a positive integer: "))
 
 
 def create_table(N_value):
@@ -34,4 +35,5 @@ def create_table(N_value):
     wb.save("multiplication_table.xlsx")
 
 
-create_table(N_value)
+# create_table(N_value)
+create_table(user_value)
